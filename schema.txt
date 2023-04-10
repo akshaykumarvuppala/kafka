@@ -1,0 +1,34 @@
+{
+  "$id": "http://example.com/myURI.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "description": "Sample schema to help you get started.",
+  "properties": {
+    "age": {
+      "description": "The type(v) type is used.",
+      "title": "age",
+      "type": "number"
+    },
+    "country": {
+      "description": "The type(v) type is used.",
+      "title": "country",
+      "type": "string"
+    },
+    "created_at": {
+      "description": "The type(v) type is used.",
+      "logicalType": "time-millis",
+      "title": "created_at",
+      "type": "string"
+    },
+    "id": {
+      "description": "The type(v) type is used.",
+      "title": "id",
+      "type": "number"
+    },
+    "name": {
+      "description": "The type(v) type is used.",
+      "title": "name",
+      "type": "string"
+    }
+  }
+}
